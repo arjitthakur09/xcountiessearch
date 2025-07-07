@@ -1,16 +1,14 @@
 .App {
   text-align: center;
   padding: 20px;
-  font-family: sans-serif;
-  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 .searchBar {
   width: 300px;
   padding: 10px;
   font-size: 16px;
-  margin: 20px auto;
-  display: block;
+  margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
@@ -18,26 +16,22 @@
 .countryContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  justify-content: center;
 }
 
 .countryCard {
-  background: white;
+  background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 15px;
+  padding: 10px;
   width: 150px;
-  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .countryCard img {
   width: 100%;
-  height: auto;
-  max-height: 100px;
+  height: 100px;
   object-fit: contain;
-  border-radius: 4px;
 }
 
 .countryCard p {
